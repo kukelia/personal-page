@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cv de kukelia!</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #1a1a1a; color: white;">
+    
+
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url 'index'  %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'projects'  %}">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/kukelia">GitHub</a>
+        </li>
+      </ul>
+
+ 
+
+</body>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+
+    <h1>Bienvenidos a mi pagina personal!</h1>
+    <img src="https://static.wikia.nocookie.net/beastars/images/f/f8/Rostro_de_Legoshi_%28Anime%29.jpg/revision/latest/scale-to-width-down/250?cb=20201110044123&path-prefix=es" alt="">
+    <h3>Estudiante de Ingeniería en Sistemas de Información
+       <br> 19 años
+       <br>
+    </h3>
+    <h3>Idiomas:</h3>
+    <ul>
+        <li>Español nativo</li>
+        <li>Ingles avanzado</li>
+        <li>Japonés principiante</li>
+    </ul>
+    <h3>por qué tomás sí y otros no??
+        Skills
+    </h3>
+    <table>
+        <thead>
+            <tr>
+                <th> Tomás(トマス)</th>         <th>Otros</th>  
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Estudió en la UTN🤵</td>    <td>Estudió en la UNLP (???)</td>
+            </tr>
+            <tr>
+                <td> No le gusta LOL👏</td>      <td>Le gusta lol 🤢</td>
+            </tr>
+            <tr>
+                <td>Le gana a vora😎 </td>      <td>no le gana a vora😞</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+
+    <h3>Artículos recientes:</h3>
+
+   
+        <div class="article">
+            
+            <div style="display: inline; width: 30%;">
+            <img src="data:image/jpeg;base64,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" alt="">
+            </div>
+
+            <div style="display: inline; width: 40%;text-align: left">
+                <table>
+                    <a href="">
+                        <thead>
+                            <h3>artículo de porcentajes</h3>
+                        </thead>
+                    </a>
+                    <tbody>
+                        <h4>En Argentina, MercadoPago cobra 10% a cada venta hecha <br>
+                            para contrarestar esto, vendedores deciden aumentar 10% los precios <br>
+                            se mantiene la ganancia del vendedor? se perjudica el comprador? <br> 
+                        </h4>
+                        <h6>fecha: 28/12/21</h6>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+ 
+
+    <br>
+
+    <h2>ver todos</h2>
+
+</body>
+</html>

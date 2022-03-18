@@ -1,0 +1,85 @@
+table, th, td {
+    border: 1px solid black;
+}
+table{
+      border-collapse: collapse;
+}
+h1{
+  background-color: #1a1a1a; color: white;
+  padding-bottom: 2%;padding-top: 1%;
+}
+h4,h3{
+    max-width: 50%;
+    margin-top: 1.8%;
+}
+body{
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+body > *{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+ul{
+  list-style-position: inside;
+}
+img{
+  display: block;
+}
+
+.article{
+  background-color: #ff6666;
+ max-width: 50%;
+}
+
+a, a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon{
+  height: 120px;
+  width: 120px;
+}
+.icon-div{
+  display: inline-block;
+  background-color: aliceblue;
+  border-radius: 20%;
+}
+.header{
+border: 2px solid white
+}
+
+@media screen and (max-width: 1090px){
+  h3,h4{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 80%;
+    margin-top: 1.8%;
+  }
+  .icon{
+    height: 70px;
+    width: 70px;
+  }
+}
+.desc{
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
+#about{
+  margin-top: 2%;
+}
+#mail{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#skills{
+  margin-bottom: 1%;
+}
+#contact{
+  margin-top: 0.5%;
+}

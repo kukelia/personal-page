@@ -1,0 +1,46 @@
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+h3, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: gray;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+img {
+  /*display: block;*/
+}
+
+.article {
+  background-color: #ff6666;
+  width: 40%;
+  height: 10%;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.article > * {
+  display: inline;
+}
+
+img {
+  max-width: 100%;
+}
+
