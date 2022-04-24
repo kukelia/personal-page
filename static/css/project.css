@@ -1,16 +1,22 @@
 .info{
-    size: 80%;
+    size: 75%;
 }
 .root{
-    size: 20%;
+    size: 45%;
     margin-left: auto;
+    min-width: 120px;
+    
 }
 .project{
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 55%;
     justify-content: left;
-
+    background-color: white;
+    color: black;
+    padding-right: 2%;
+    padding-top: 1%;
+    border: 2px solid #000
 }
 .big-project{
     margin-left: auto;
@@ -22,4 +28,13 @@ ul{
 }
 h5{
     margin-left: auto;
+}
+h4{
+    padding-top: 2%;
+}
+
+@media screen and (max-width: 550px){
+    .project{
+        width: 90%;
+    }
 }
