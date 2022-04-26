@@ -1,2 +1,2 @@
 # personal-page
-Link to my page: kukelia.github.io/personal-page.github.io/
+Link to my page: https://kukelia.github.io/personal-page.github.io/
