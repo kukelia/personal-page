@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #fafafa;
-    color: #212529;
+    background-color: #272828;
+    color: whitesmoke;
 }
 
 a {
@@ -14,7 +14,7 @@ a.muted {
 }
 
 a:hover {
-    color: #ff7e67;
+    color: #38B6FF;
     text-decoration: none;
 }
 
@@ -23,23 +23,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
-hr {
-    border-color: #eee;
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 8px;
-    width: 15%;
-    margin: 30px auto;
-}
 
 .dark {
     background-color: #033242;
     color: #fafafa;
 }
 
-#contact-message {
-    height: 210px;
-}
 
 /* Headings */
 
@@ -62,12 +51,12 @@ hr {
     font-size: 1.1rem;
 }
 
-/* Buttons */
 
-.custom {
+/* Buttons */
+.custom { 
     color: #fff;
-    background-color: #ff7e67;
-    border-color: #ff7e67;
+    background-color: #38B6FF;
+    border-color: #38B6FF;
     font-weight: 600;
     box-shadow: none;
     -webkit-box-shadow: none
@@ -75,8 +64,8 @@ hr {
 
 .custom:hover, .custom:focus {
     color: #fff;
-    background-color: #e6654e;
-    border-color: #ff7e67;
+    background-color: #38B6FF;
+    border-color: #38B6FF;
     box-shadow: none;
     -webkit-box-shadow: none
 }
@@ -87,18 +76,18 @@ hr {
 }
 
 .custom-outline {
-    color: #ff7e67;
+    color: #38B6FF;
     background-color: transparent;
     background-image: none;
-    border-color: #ff7e67;
+    border-color: #38B6FF;
     box-shadow: none;
     -webkit-box-shadow: none
 }
 
 .custom-outline:hover, .custom-outline:focus {
     color: #fff;
-    background-color: #e6654e;
-    border-color: #ff7e67;
+    background-color: #38B6FF;
+    border-color: #38B6FF;
     box-shadow: none;
     -webkit-box-shadow: none
 }
@@ -114,11 +103,11 @@ hr {
     font-family: 'Lobster', cursive;
     font-weight: 800;
     font-size: 2.2rem;
-    color: #ff7e67;
+    color: #38B6FF;
 }
 
 .button {
-    color: #ff7e67;
+    color: #38B6FF;
 }
 
 .nav-link {
@@ -126,40 +115,9 @@ hr {
 }
 
 .nav-link:hover {
-    color: #ff7e67;
+    color: #38B6FF;
 }
 
-/* Jumbotron */
-
-.jumbotron {
-    height: 400px;
-    position: relative;
-    background: no-repeat center center;
-    background-color: #ccf2f4;
-    background-size: cover;
-    background-attachment: scroll;
-}
-
-.jumbo-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #212529;
-    opacity: 0.5;
-}
-
-.jumbo-title {
-    position: relative;
-    margin-top: 20px;
-    padding-top: 20px;
-    color: #fafafa;
-}
-
-.jumbo-subheader {
-    font-size: 1.1rem;
-}
 
 /* Features */
 
@@ -173,7 +131,7 @@ hr {
 
 .feature-icon {
     padding-bottom: 20px;
-    color: #ff7e67;
+    color: #38B6FF;
 }
 
 /* About */
@@ -252,6 +210,11 @@ hr {
 .card-deck {
     padding-top: 40px;
 }
+.card.h-100{
+    background-color: #3c3d3f;
+    border-color: white;
+    color: white;
+}
 
 .status {
     font-size: 0.9rem;
@@ -283,5 +246,13 @@ footer {
 }
 
 .footer-icon:hover {
-    color: #ff7e67;
+    color: #38B6FF;
+}
+
+.modal-content{
+    color: black;
+    width: 100%;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 2px;
 }
