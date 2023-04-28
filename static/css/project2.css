@@ -222,6 +222,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-proj {
      margin-right: 5px;
+
+}
+.button-left{
+    color: #033242;
 }
 
 /* CTA */
@@ -255,4 +259,7 @@ footer {
     border-color: black;
     border-radius: 6px;
     border-width: 2px;
+}
+.card-img-top{
+    aspect-ratio: 16/9;
 }
