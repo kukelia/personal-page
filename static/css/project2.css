@@ -263,3 +263,6 @@ footer {
 .card-img-top{
     aspect-ratio: 16/9;
 }
+.status-cond{
+    color: greenyellow;
+}
