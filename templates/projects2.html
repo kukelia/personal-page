@@ -6,8 +6,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        
-        
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/bf9c856106.js" crossorigin="anonymous"></script>
         
@@ -17,35 +15,38 @@
               rel="stylesheet">
         
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-              integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-              crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         
         <!-- Custom CSS -->
         <link rel="stylesheet" href="../static/css/project2.css">
         <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="../static/css/footer.css">
 
     </head>
 
 
 
 <body>
-
+    <!-- NAVIGATION BAR -->
     <ul class="nav justify-content-center">
         <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link" href="projects2.html">Projects</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="https://github.com/kukelia">GitHub</a>
+        <a class="nav-link" href="aboutme.html">About me</a>
         </li>
     </ul>
     <br>
     <!-- END NAVIGATION BAR -->
 
-    <h1>My Projects</h1>
+    <div style="text-align: center;padding-bottom: 2%;padding-top: 1%;">
+        <h1 style="color: #38B6FF;">My Projects</h1>
+        <hr>
+    </div>
 
     <div class="container">
         <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-2">
@@ -181,6 +182,7 @@
 
 
 
+
     <!-- Modals -->
     <div class="modal fade" id="pythonetlModal" tabindex="-1" aria-labelledby="pythonetlModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
@@ -188,36 +190,43 @@
                 <div class="modal-header">
                     <h3 class="modal-title" id="pythonetlModalLabel">Event-Driven Python</h3>
                 </div>
-                <div class="modal-body">
-                    <h5>Automated ETL processing pipeline for COVID-19 data</h5>
+                <div class="modal-body" style="padding-right: 5%;">
+                    <h5>Making an Escape Room</h5>
                     <p>
-                        <ul>
-                            <li>Python, boto3 SDK, Pycharm unit testing</li>
-                            <li>Lambda, DynamoDB, SNS, EC2</li>
-                            <li>Terraform, Terraform Cloud</li>
-                            <li>Git, GitHub, Github Actions</li>
-                            <li>Amazon Web Services, Redash</li>
+                        <ul> Software:
+                            <li>C++, Node-Red, Mosquitto, PlatformIo </li>
+                        </ul>
+                        <ul>Hardware:
+                            <li>Arduino UNO,
+                                ESP32,
+                                LEDs,
+                                buzzer,
+                                lcd 16x2 display,
+                                Shift register,
+                                4 Digit 7 Segment LED Display,
+                                4x4 matrix keypad,
+                                Rfid reader and card,
+                                9v Battery</li>
                         </ul>
                     </p>
-                    <p>An AWS Lambda Amazon EventBridge rule.</p>
-                    <p>I am particularly pleased with the choice I made to provision all of my infrastructure using
-                        Terraformally if/as I branch out to other cloud providers.</p>
-                    <p>Numerous challenges presented themselves throughout the development process. Some examples:</p>
+
+                    <p>Challenges Overcomed:</p>
                     <p>
                         <ul>
-                            <li>After working out the Python logic locally, I used multiple AWS accounts for testing and
-                                production. Eis procld be streamlined using git branches and
-                                environmental variables, something I would like to learn and practice.</li>
-                            <li>An IAM permission scoping issue threw me for a loop, sidetracking the project for several
-                                hours as I erroneously refactored the Terraform configuration.</li>
-                            <li>There were several key parts to this challenge that I had to (or wanted to) learn from
-                                scratch: boto3, AWSeady, I suspect this project would have taken far less time.</li>
+                            <li>Setting up and syncing the inter-device data communications (Serial and MQTT).</li>
+                            <li>Setting the room's full status control and debug log for a Game Master</li>
+                            <li>Developing the respective board's codes in a fully modulized way,
+                                making code easy to reuse in the future.
+                            </li>
                         </ul>
                     </p>
-                    <p>Future improvements may include: refactoring the Terraform configuration file; writing more
-                        comprehensive unit tests; and revisiting queries and visualizations in Redash.</p>
+                    <br>
+                    <p>Check out the full description of the project, including images and videos, on my Github</p>
                 </div>
                 <div class="modal-footer">
+                    <a class="btn custom-outline btn-proj" href="https://github.com/kukelia/escape_room"
+                    target="_blank" style="margin-right: 35%;">
+                                <i class="fas fa-code-branch"></i> GitHub</a>
                     <button type="button" class="btn custom" data-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -231,7 +240,7 @@
                     <h3 class="modal-title" id="portfolioModalLabel">Portfolio Website</h3>
                 </div>
                 <div class="modal-body">
-                    <h5>A Flask web application with Bootstrap CSS</h5>
+                    <h5>Multiplayer Web Card Game</h5>
                     <p>
                         <ul>
                             <li>Python</li>
@@ -350,16 +359,12 @@
 
     <div class="container">
         <footer class="text-center">
-            <!--
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <hr>
-            </div>
-            -->
-            <a href="https://www.linkedin.com/in/alexeversmeyer/"><i class="footer-icon fab fa-linkedin-in fa-2x"></i></a>
-            <a href="https://twitter.com/AlexEversmeyer"><i class="footer-icon fab fa-twitter fa-2x"></i></a>
-            <a href="https://github.com/aeversme"><i class="footer-icon fab fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/tomas-zubik/"><i class="footer-icon fab fa-linkedin-in fa-2x"></i></a>
+            <a href="mailto:zubik.tomas@gmail.com"><i style="font-size:30px" class="footer-icon fa">&#xf0e0;</i></a>
+            <a href="https://github.com/kukelia"><i class="footer-icon fab fa-github fa-2x"></i></a>
         </footer>
     </div>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -367,4 +372,5 @@ crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
 crossorigin="anonymous"></script>
+
 </html>
