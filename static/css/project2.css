@@ -18,6 +18,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Alegreya', serif;
     font-weight: 600;
 }
+h1{
+    border-bottom: 2px solid #38B6FF;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding-bottom: 1%;
+}
 
 
 .dark {

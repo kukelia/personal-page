@@ -45,7 +45,7 @@
 
     <div style="text-align: center;padding-bottom: 2%;padding-top: 1%;">
         <h1 style="color: #38B6FF;">My Projects</h1>
-        <hr>
+        <!-- <hr> -->
     </div>
 
     <div class="container">
@@ -76,33 +76,8 @@
             </div>
           </div>
 
-          <div class="col mb-4">
+        <div class="col mb-4">
             <div class="card h-100">
-                <img src="../static/img/faputa.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h3 class="card-title">Multiplayer Web Card Game</h3>
-                    <p class="card-text status">
-                        Status: <span class="status-cond">complete</span>
-                    </p>
-                    <p class="card-text">Famous Argentinian card game "chancho", adapted to a multiplayer web version, made 
-                        possible by the use of web sockets.
-                    </p>
-                </div>
-                <div class="card-footer bg-transparent">
-                    <small class="text-muted">
-                        <button type="button" class="btn custom btn-proj button-left" data-toggle="modal" data-target="#portfolioModal">
-                            More Info
-                        </button>
-                        <a class="btn custom-outline btn-proj" href="https://github.com/kukelia/chancho_game"
-                           target="_blank">
-                            <i class="fas fa-code-branch"></i> GitHub</a>
-                    </small>
-                </div>
-            </div>
-          </div>
-
-            <div class="col mb-4">
-                <div class="card h-100">
                 <img src="../static/img/Cachorro-Labrador-6-meses.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h3 class="card-title">Housing Prices's Data Analysis and Prediction</h3>
@@ -125,7 +100,7 @@
                     </small>
                 </div>
             </div>
-            </div>
+        </div>
             <div class="col mb-4">
                 <div class="card h-100">
                     <img src="../static/img/go-logo2.png" class="card-img-top" alt="...">
@@ -165,7 +140,7 @@
                     </div>
                     <div class="card-footer bg-transparent">
                         <small class="text-muted">
-                            <button type="button" class="btn custom btn-proj button-left" data-toggle="modal" data-target="#habitModal">
+                            <button type="button" class="btn custom btn-proj button-left" data-toggle="modal" data-target="#bookstoreModal">
                                 More Info
                             </button>
                             <a class="btn custom-outline btn-proj" href="https://github.com/kukelia/bookshop_page"
@@ -176,10 +151,36 @@
                 </div>
             </div>
 
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="../static/img/faputa.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Multiplayer Web Card Game</h3>
+                        <p class="card-text status">
+                            Status: <span class="status-cond">complete</span>
+                        </p>
+                        <p class="card-text">Famous Argentinian card game "chancho", adapted to a multiplayer web version, made 
+                            possible by the use of web sockets.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <small class="text-muted">
+                            <button type="button" class="btn custom btn-proj button-left" data-toggle="modal" data-target="#portfolioModal">
+                                More Info
+                            </button>
+                            <a class="btn custom-outline btn-proj" href="https://github.com/kukelia/chancho_game"
+                               target="_blank">
+                                <i class="fas fa-code-branch"></i> GitHub</a>
+                        </small>
+                    </div>
+                </div>
+              </div>
+
         </div>
+        
     </div>
     
-
+    
 
 
 
@@ -188,10 +189,10 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="pythonetlModalLabel">Event-Driven Python</h3>
+                    <h3 class="modal-title" id="pythonetlModalLabel">Making an Escape Room</h3>
                 </div>
                 <div class="modal-body" style="padding-right: 5%;">
-                    <h5>Making an Escape Room</h5>
+                    <h5>What I used:</h5>
                     <p>
                         <ul> Software:
                             <li>C++, Node-Red, Mosquitto, PlatformIo </li>
@@ -210,7 +211,7 @@
                         </ul>
                     </p>
 
-                    <p>Challenges Overcomed:</p>
+                    <h5>Main challenges Overcomed:</h5>
                     <p>
                         <ul>
                             <li>Setting up and syncing the inter-device data communications (Serial and MQTT).</li>
@@ -237,44 +238,36 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="portfolioModalLabel">Portfolio Website</h3>
+                    <h3 class="modal-title" id="portfolioModalLabel">Multiplayer Web Card Game</h3>
                 </div>
                 <div class="modal-body">
-                    <h5>Multiplayer Web Card Game</h5>
+                    <h5>What I used:</h5>
                     <p>
                         <ul>
-                            <li>Python</li>
-                            <li>Flask, SQLAlchemy, smtplib, Werkzeug</li>
-                            <li>HTML, Bootstrap CSS</li>
-                            <li>Git, GitHub, Github Actions</li>
-                            <li>Amazon Web Services, AWS Elastic Beanstalk</li>
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>Nodejs</li>
+                            <li>Express</li>
+                            <li>Socket.io</li>
                         </ul>
                     </p>
-                    <p>This webapp was created as a capstone project for the Python Bootcamp taught by Angela Yu of The App
-                        Brewery. Some of the backend Flask code was written by me for an earlier project, while the frontend
-                        code is almost exclusively written from scratch. It is deployed on AWS Elastic Beanstalk via
-                        GitHub.</p>
-                    <p>I am particularly pleased with two aspects of this application: styling the HTML with Bootstrap, a
-                        framework with w to automatically push changes to Elastic Beanstalk.</p>
-                    <p>Numerous challenges presented themselves throughout the development process. Some examples:</p>
+
+                    <h5>Main challenges Overcomed:</h5>
                     <p>
                         <ul>
-                            <li>Proper form va_on_submit() method was invalid. Documentation led me to an alternate
-                                method for validating form fields.</li>
-                            <li>Custom CSS:CDN meant that I had no easy way to manipulate built-in values. A good
-                                deal of searching led me to the code I needed to calculate color hex values and create my
-                                own btn-custom class.</li>
-                            <li>SMTP: my w Several searches on stackoverflow eventually revealed that
-                                AWS throttles outbound EC2 traffic on port 25. Explicitly defining a different port for
-                                SMTP traffic has restored email functionality.</li>
+                            <li>Managing User decks as circular lists</li>
+                            <li>User and server sockets, keeping multiples signals at a time in mind</li>
+                            <li>deck_updater and emit_updated_deck concurrent
+                             functions after each player submits their cards to replace
+                            </li>
                         </ul>
                     </p>
-                    <p>Future improvements may include: figuring out AJAX requests so that this webapp can be served
-                        through Cloudhe EB environ AWS console; improved blog
-                        formatting and pagination; more error-handling; some sort of alert (email?) system when users
-                        comment on a blog post.</p>
+                    <br>
+                    <p>Check out the full description of the project, including images and videos, on my Github</p>
                 </div>
                 <div class="modal-footer">
+                    <a class="btn custom-outline btn-proj" href="https://github.com/kukelia/chancho_game"
+                    target="_blank" style="margin-right: 35%;">
+                                <i class="fas fa-code-branch"></i> GitHub</a>
                     <button type="button" class="btn custom" data-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -285,26 +278,35 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="resumeModalLabel">Cloud Résumé</h3>
+                    <h3 class="modal-title" id="resumeModalLabel">Housing Prices's Data Analysis and Prediction</h3>
                 </div>
                 <div class="modal-body">
-                    <h5>A serverless cloud résumé website</h5>
+                    <h5>What I used:</h5>
                     <p>
                         <ul>
-                            <li>HTML, CSS, Javascript</li>
-                            <li>Git, GitHub, GitHub Actions</li>
-                            <li>Amazon Web Services, AWS Serverless Application Model, AWS SAM CLI</li>
-                            <li>Lambda, DynamoDB, API Gateway, S3, Route53, Certificate Manager</li>
+                            <li>Python</li>
+                            <li>Pandas</li>
+                            <li>Numpy</li>
+                            <li>Matplotlib</li>
+                            <li>Sklearn</li>
+                            <li>TensorFlow</li>
+                        </ul>
+
+                    </p>
+
+                    <h5>Results</h5>
+                    <p>
+                        <ul>
+                            <li>Top 30 % in the kaggle competition, with MSE of 0.13618</li>
                         </ul>
                     </p>
-                    <p>I completion that increases the visitor count in a DynamoDB table by one
-                        and returns the new count to the website.</p>
-                    <p>This project contained many firsts for me, including implementation of a CI/CD pipeline, use of the
-                        ServerlLambda code myself, but ended up referencing several other similar functions
-                        to piece together a working solution.</p>
-                    <p>Since the completio my own at this point.</p>
+                    <br>
+                    <p>Check out the full description of the project, including images and videos, on my Github</p>
                 </div>
                 <div class="modal-footer">
+                    <a class="btn custom-outline btn-proj" href="https://github.com/kukelia/escape_room"
+                    target="_blank" style="margin-right: 35%;">
+                                <i class="fas fa-code-branch"></i> GitHub</a>
                     <button type="button" class="btn custom" data-dismiss="modal">Close</button>
                 </div>
             </div>
@@ -315,42 +317,76 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="habitModalLabel">Habit Tracker</h3>
+                    <h3 class="modal-title" id="habitModalLabel">Supermarket Database Design, Implementation and Interface</h3>
                 </div>
                 <div class="modal-body">
-                    <h5>An API-based Python GUI app</h5>
+                    <h5>What I used:</h5>
+                    <p>
+                        <ul> 
+                            <li>Python</li>
+                            <li>PostgreSQL</li>
+                            <li>LucidCharts</li>
+                            <li>Docker</li>
+                        </ul>
+
+                    </p>
+
+                    <h5>Main challenges Overcomed:</h5>
+                    <p>
+                        <ul>
+                            <li>Designing Database from scratch (ERD and implementation)</li>
+                            <li>Grouping App interface's operations in Transactions, and committing them when all requirements were satisfied</li>
+    
+                        </ul>
+                    </p>
+                    <p>Coming soon: <li>Making the app portable with docker to run in every device</li></p>
+                    <br>
+                    <p>Check out the full description of the project, including images and videos, on my Github</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn custom-outline btn-proj" href="https://github.com/kukelia/escape_room"
+                    target="_blank" style="margin-right: 35%;">
+                                <i class="fas fa-code-branch"></i> GitHub</a>
+                    <button type="button" class="btn custom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bookstoreModal" tabindex="-1" aria-labelledby="habitModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="habitModalLabel">Bookstore's Web Page and Database Connection</h3>
+                </div>
+                <div class="modal-body">
+                    <h5>What I used:</h5>
                     <p>
                         <ul>
                             <li>Python</li>
-                            <li>guizero, tkinter, requests</li>
+                            <li>Django</li>
+                            <li>Sqlite</li>
+                            <li>Selenium</li>
+                            <li>Html, Css and Javascript</li>
                         </ul>
                     </p>
-                    <p>After working with the <a href="https://pixe.la/" target="_blank">Pixe.la</a> APIs through the
-                        console during a boospent coding and learning on a pixel graph. I reused the
-                        API-related code that I had authored during the bootcamp project and built the GUI from scratch.</p>
-                    <p>This was my first codheavily on the guizero documentation for reference.</p>
-                    <p>Some notable challenges:</p>
+
+                    <h5>Main challenges Overcomed:</h5>
                     <p>
                         <ul>
-                            <li>Image resizing: I wantedarching led me to discover that guizero required the
-                                Pillow library to scale images. Installing the Pillow package created the desired
-                                outcome.</li>
-                            <li>Error handling: PI. I learned how to use a try/except block to catch invalid
-                                entries, and used the datetime module and strftime to convert the date entry into an
-                                appropriate date object.</li>
-                            <li>GUI operation: I would use tkinter methods with guizero to solve this challenge.
-                                In the case of resetting radio buttons, this involved creating a list of the options and
-                                calling tk.select() on the desired list index.</li>
-                            <li>Including the graph: Pixe.la graphs are rendered in SVG format in a browser window. I
-                                attempted to fmage processing application. I did not like the idea of having to
-                                include a separate program with this app, so I settled for a button that opens a link to
-                                the selected graph in a new browser tab.</li>
+                            <li>Implementing users and user carts</li>
+                            <li>Product filtering</li>
+                            <li>Liking products and avoiding a user to like more than 1 time a same product</li>
+                            <li>Adding books with selenium scraping</li>
                         </ul>
                     </p>
-                    <p>For the time being, this application is complete. Future improvements may include: creating an
-                        executable using PyInstallerif a library for doing so becomes available.</p>
+                    <br>
+                    <p>Check out the full description of the project, including images and videos, on my Github</p>
                 </div>
                 <div class="modal-footer">
+                    <a class="btn custom-outline btn-proj" href="https://github.com/kukelia/escape_room"
+                    target="_blank" style="margin-right: 35%;">
+                                <i class="fas fa-code-branch"></i> GitHub</a>
                     <button type="button" class="btn custom" data-dismiss="modal">Close</button>
                 </div>
             </div>
