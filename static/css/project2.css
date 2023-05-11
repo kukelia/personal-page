@@ -249,6 +249,9 @@ h1{
 .status-cond{
     color: greenyellow;
 }
+.status-progress{
+    color: rgb(238, 161, 18);
+}
 hr{
     margin-left: 13%;
     margin-right: 13%;
