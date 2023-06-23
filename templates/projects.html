@@ -21,8 +21,7 @@
         <!-- Custom CSS -->
         
         <link rel="stylesheet" href="../static/css/project2.css">
-        <link rel="stylesheet" href="../static/css/style.css">
-        <link rel="stylesheet" href="../static/css/footer.css">
+       <link rel="stylesheet" href="../static/css/footer.css">
         <link rel="stylesheet" href="../static/css/nav.css">
 
     </head>
@@ -70,7 +69,7 @@
                 </div>
                 <div class="card-footer bg-transparent">
                     <small class="text-muted">
-                        <button type="button" class="btn custom btn-proj button-left" data-toggle="modal" data-target="#pythonetlModal">
+                        <button type="button" class="btn custom btn-proj button-left" data-toggle="modal" data-target="#escaperoomModal">
                             More Info
                         </button>
                         <a class="btn custom-outline btn-proj" href="https://github.com/kukelia/escape_room"
@@ -96,14 +95,14 @@
                       </p>
                   </div>
                   <div class="card-footer bg-transparent">
-                      <!-- <small class="text-muted">
+                      <small class="text-muted">
                           <button type="button" class="btn custom btn-proj button-left" data-toggle="modal" data-target="#pythonetlModal">
                               More Info
                           </button>
-                          <a class="btn custom-outline btn-proj" href="https://github.com/kukelia/escape_room"
+                          <a class="btn custom-outline btn-proj" href="https://github.com/tomaszbk/spotify-ETL"
                              target="_blank">
                               <i class="fas fa-code-branch"></i> GitHub</a>
-                      </small> -->
+                      </small>
                   </div>
                 </div>
             </div>
@@ -221,11 +220,11 @@
 
 
     <!-- Modals -->
-    <div class="modal fade" id="pythonetlModal" tabindex="-1" aria-labelledby="pythonetlModalLabel" aria-hidden="true">
+    <div class="modal fade" id="escaperoomModal" tabindex="-1" aria-labelledby="escaperoomModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="pythonetlModalLabel">Making an Escape Room</h3>
+                    <h3 class="modal-title" id="escaperoomModalLabel">Making an Escape Room</h3>
                 </div>
                 <div class="modal-body" style="padding-right: 5%;">
                     <h5>What I used:</h5>
@@ -262,6 +261,46 @@
                 </div>
                 <div class="modal-footer">
                     <a class="btn custom-outline btn-proj" href="https://github.com/kukelia/escape_room"
+                    target="_blank" style="margin-right: 35%;">
+                                <i class="fas fa-code-branch"></i> GitHub</a>
+                    <button type="button" class="btn custom" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pythonetlModal" tabindex="-1" aria-labelledby="pythonetlModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="pythonetlModalLabel">Making an Escape Room</h3>
+                </div>
+                <div class="modal-body" style="padding-right: 5%;">
+                    <h5>What I used:</h5>
+                    <p>
+                        <ul> 
+                            <li>Python</li>
+                            <li>Airflow</li>
+                            <li>Docker</li>  
+                            <li>PostgreSQL</li>
+                            <li>AWS</li>
+                        </ul>
+                    </p>
+
+                    <h5>Main challenges Overcomed include:</h5>
+                    <p>
+                        <ul>
+                            <li>Dockerizing the services of the application with docker compose</li>
+                            <li>Validating and transforming the data</li>
+                            <li>Managing differences in timezones (local vs spotify's default)</li>
+                            <li>Deploying in the cloud</li>
+                        </ul>
+                    </p>
+                    <br>
+                    <p>Check out the full description of the project, including the data analysis and images, on my Github</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn custom-outline btn-proj" href="https://github.com/tomaszbk/spotify-ETL"
                     target="_blank" style="margin-right: 35%;">
                                 <i class="fas fa-code-branch"></i> GitHub</a>
                     <button type="button" class="btn custom" data-dismiss="modal">Close</button>
@@ -367,15 +406,14 @@
 
                     </p>
 
-                    <h5>Main challenges Overcomed:</h5>
+                    <h5>Main challenges Overcomed include:</h5>
                     <p>
                         <ul>
                             <li>Designing Database from scratch (ERD and implementation)</li>
                             <li>Grouping App interface's operations in Transactions, and committing them when all requirements were satisfied</li>
-    
+                            <li>Making the app portable with docker to run in every device</li>
                         </ul>
                     </p>
-                    <p>Coming soon: <li>Making the app portable with docker to run in every device</li></p>
                     <br>
                     <p>Check out the full description of the project, including images and videos, on my Github</p>
                 </div>
